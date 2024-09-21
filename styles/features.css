@@ -62,7 +62,7 @@
     height: 88px;
     border-radius: 50%;
     /* background: url('/assets/features-img2-bcg.png') no-repeat center; */
-    background-image: url('/assets/features-img1.png');
+    background-image: url('../assets/features-img1.png');
     background-size: 45px 45px;
     background-repeat: no-repeat;
     background-position: center;
@@ -70,11 +70,11 @@
 }
 
 .features__img.img-2{
-    background-image: url('/assets/features-img2.png');
+    background-image: url('../assets/features-img2.png');
 }
 
 .features__img.img-3{
-    background-image: url('/assets/features-img3.png');
+    background-image: url('../assets/features-img3.png');
 }
 
 .features__card-figure-fig > h2{
