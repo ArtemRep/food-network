@@ -105,7 +105,7 @@ color: var(--co-inactive-menu-item);
     right: -160px;
     width: 800px;
     height: 670px;
-    background-image: url('/assets/header-cutlets.png');
+    background-image: url('../assets/header-cutlets.png');
     background-position: center -35px;
     background-size: cover;
     z-index: -1;
