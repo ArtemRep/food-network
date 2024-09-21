@@ -1,0 +1,79 @@
+.about-us{
+  
+    position: relative;
+    margin-bottom: 115px;
+}
+
+.about-us-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us__img{
+    max-width: 555px;
+    max-height: 500px;
+    border-radius: 35px;
+    overflow: hidden;
+}
+
+.about-img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.about-us-description{
+    /* width: max-content; */
+    max-width: max-content;
+}
+
+
+.about-us__desc_header{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: .2rem;
+    color: var(--co-active-menu);
+    text-transform: uppercase;
+    font-family: 'philosopher-bold';
+    margin-bottom: 10px;
+}
+
+.about-us__desc-sub-header{
+    max-width: 487px;
+    font-size: 31px;
+    font-family: 'philosopher-bold';
+    color: var(--co-inactive-menu-item);
+    line-height: 40px;
+    margin-bottom: 30px;
+    /* word-wrap: break-word; */
+}
+
+.about-us__desc-text{
+    max-width: 487px;
+    font-family: 'roboto-regular';
+    color: var(--co-inactive-menu-item);
+    line-height: 24px;
+    margin-bottom: 30px;
+    /* word-wrap: break-word; */
+}
+
+.about-us__btn{
+    display: inline-block;
+    font-family: 'roboto-medium';
+    font-size: 16px;
+    text-decoration: none;
+    padding: 11px 30px;
+    background-color: var(--co-active-menu);
+    color: #fff;
+    border-radius: 5px;
+
+}
+
+.about-us__klyaksa{
+    position: absolute;
+    top: -200px;
+    z-index: -1;
+}

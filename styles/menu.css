@@ -1,0 +1,145 @@
+.menu{
+    margin-bottom: 120px;
+}
+
+.menu-container{
+   
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.menu__header{
+    font-size: 16px;
+    font-family: 'roboto-medium';
+    line-height: 24px;
+    letter-spacing: .2rem;
+    color: var(--co-active-menu);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.menu__sub-header{
+    font-size: 31px;
+    line-height: 24px;
+    font-family: 'philosopher-bold';
+    color: var(--co-inactive-menu-item);
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.menu__desc{
+    max-width: 748px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'roboto-medium';
+    line-height: 24px;
+    margin: 0 auto;
+    color: var(--co-inactive-menu-item);
+    margin-bottom: 60px;
+}
+
+.menu__card-img{
+    max-width: 360px;
+    max-height: 264px;
+    border-top-left-radius: 25%;
+}
+
+.card-img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin-bottom: 21px;
+    border-bottom-right-radius: 25%;
+
+    
+}
+
+.menu-card-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+    margin-bottom: 50px;
+}
+
+.menu__card{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 360px;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-color: rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.menu__card-price{
+    font-size: 25px;
+    font-family: 'philosopher-bold';
+    line-height: 24px;
+    color: var(--co-inactive-menu-item);
+    margin-right: 25px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.menu__card-desc{
+    font-size: 16px;
+    color: var(--co-inactive-menu-item);
+    line-height: 24px;
+    font-family: 'roboto-regular';
+    margin: 0 21px 25px;
+}
+
+.menu__card-controls{
+    margin: 0 25px;
+}
+
+.menu__card-button{
+    display: inline-block;
+    width: 36px;
+    height: 34px;
+    line-height: 0;
+    padding: 0;
+    border: none;
+    background-color: var(--co-active-menu);
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    margin-right: 94px;
+    /* vertical-align: middle; */
+    /* padding: 11px 11px;  */
+}
+
+.menu__card-stars{
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+.star__icon{
+    
+    display: inline-block; 
+     width: 32px;
+    height: 32px; 
+}
+
+.menu__learn-more{
+    text-align: center;
+}
+
+.learn-more-button{
+    display: inline-block;
+    padding: 11px 30px;
+    font-family: 'roboto-medium';
+    color: var(--co-active-menu);
+    text-decoration: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    line-height: 16px;
+
+}

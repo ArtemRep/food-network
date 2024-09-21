@@ -1,0 +1,110 @@
+.testimonial{
+    margin-bottom: 120px;
+}
+.testimonial-container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.testimonail-content-container{
+    max-width: 804px;
+    margin: 0 auto;
+}
+
+.testimonial__header{
+    font-family: 'roboto-medium';
+    line-height: 24px;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    color: var(--co-active-menu);
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.testimonial__sub-header{
+    font-family: 'philosopher-bold';
+    font-size: 31px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    color: var(--co-inactive-menu-item);
+    text-align: center;
+}
+
+.testimonial__desc{
+    font-family: 'roboto-regular';
+    line-height: 24px;
+    color: var(--co-inactive-menu-item);
+    margin-bottom: 17px;
+    max-width: 750px;
+    text-align: center;
+}
+
+.testimonial__slider{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider__user{
+    width: 113px;
+    height: 110px;
+    position: relative;
+
+    background-image: url('../assets/slider-user-bkg.png');
+}
+
+.slider__user-img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    position: absolute;
+    right: 5px;
+    bottom: 15px;
+}
+
+.slider__user-feedback{
+    width: 506px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.feedback-stars > .star__icon{
+    width: 18px;
+}
+
+.feedback{
+    font-family: 'roboto-regular';
+    line-height: 24px;
+    color: #000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.slider__user-name{
+    font-family: 'roboto-regular';
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+}
+
+.slider__user-post{
+    font-family: 'roboto-regular';
+    color: #000;
+    font-size: 12px;
+}
+
+.slider__arrow-back{
+    position: absolute;
+    top: 25%;
+    left: -147px;
+}
+
+.slider__arrow-forward{
+    position: absolute;
+    top: 25%;
+    right: -147px;
+}

@@ -1,0 +1,118 @@
+.footer{
+    background-color: #252525;
+    padding-top: 137px;
+    padding-bottom: 104px;
+}
+
+.footer-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    font-family: 'roboto-regular';
+    font-size: 14px;
+    color: #fff;
+    /* opacity: .6; */
+    display: flex;
+    column-gap: 20px;
+    
+}
+
+.footer__logo-block, .footer-home-block, .footer-menu-block, .footer-company-block{
+   
+    width: 262px;
+    color: #fff;
+}
+
+.footer__logo{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 25px;
+}
+
+.footer__email-1 > a,.footer__email-2 > a,.footer__phone > a{
+    color: #fff;
+    text-decoration: none;
+    opacity: .6;
+}
+
+.footer__email-1, .footer__email-2{
+    margin-bottom: 17px;
+}
+
+.footer__home-block-header{
+    font-size: 18px;
+    font-family: 'philosopher-bold';
+    margin-bottom: 26px;
+}
+.footer__home-block-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer__home-block-list a{
+    color: #fff;
+    text-decoration: none;
+    opacity: .6;
+    margin-bottom: 20px;
+}
+
+.footer__list-item{
+    margin-bottom: 20px;
+}
+
+.footer__home-block-list :last-child{
+    margin-bottom: 0;
+}
+
+.footer__menu-block-list :last-child{
+    margin-bottom: 0;
+}
+
+.footer__menu-block-header{
+    font-size: 18px;
+    font-family: 'philosopher-bold';
+    margin-bottom: 26px;
+}
+
+.footer__menu-block-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer__menu-block-list a{
+    color: #fff;
+    text-decoration: none;
+    opacity: .6;
+    margin-bottom: 20px;
+}
+
+.footer__company-block-header{
+    font-size: 18px;
+    font-family: 'philosopher-bold';
+    margin-bottom: 26px;
+}
+
+.footer__company-block-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.company-social-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.footer__company-block-list a{
+    color: #fff;
+    text-decoration: none;
+    opacity: .6;
+    margin-bottom: 20px;
+}
+
+.company-social-list-item{
+    margin-right: 10px;
+}

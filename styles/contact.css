@@ -1,0 +1,56 @@
+.contact{
+    background-color: #fbf1e7;
+    padding-top: 115px;
+    padding-bottom: 117px;
+  
+   
+}
+
+.contact__header{
+    font-family: 'roboto-medium';
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    color: var(--co-active-menu);
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.contact__sub-header{
+    font-family: 'philosopher-bold';
+    font-size: 31px;
+    line-height: 40px;
+    color: var(--co-inactive-menu-item);
+    max-width: 749px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 46px;
+}
+
+.contact-search-block{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.contact__search-field{
+    width: calc(750px - 156px);
+    height: 75px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'roboto-regular';
+    margin-right: -10px;
+    outline: none;
+    font-size: 20px;
+    padding-left: 32px;
+    box-sizing: border-box;
+}
+
+.contact__search-field-button{
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #DC780B;
+    border: none;
+    font-family: 'roboto-medium';
+    width: 156px;
+    height: 75px;
+}

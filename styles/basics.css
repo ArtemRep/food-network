@@ -1,0 +1,41 @@
+:root{
+    --co-active-menu: #DC780B;
+    --co-inactive-menu-item: #150C01;
+    --co-white: #fff
+}
+
+
+@font-face {
+    font-family: 'roboto-regular';
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'roboto-medium';
+    src: url('../fonts/Roboto-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'philosopher-bold';
+    src: url('../fonts/Philosopher-Bold.ttf');
+}
+
+menu, h1, p, h2, figure{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container{
+    max-width: 1440px;
+    margin: auto;
+    /* background-color: rgb(26, 179, 179); */
+    min-height: 200px;
+}
+
+.button{
+    background-color: #DC780B;
+    text-decoration: none;
+    color: var(--co-white);
+    display: block;
+}

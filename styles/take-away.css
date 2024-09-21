@@ -1,0 +1,111 @@
+.take-away{
+    background-color: #fbf1e7;
+    margin-bottom: 140px;
+
+}
+
+.take-away-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+    position: relative;
+    display: flow-root;
+}
+
+.take-away-description-block{
+    max-width: 555px;
+    margin-left: 97px;
+    margin-bottom: 128px;
+    margin-top: 114px;
+}
+
+.take-away__header{
+    font-family: 'roboto-medium';
+    line-height: 24px;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    color: var(--co-active-menu);
+    margin-bottom: 5px;
+}
+
+.take-away__sub-header{
+    font-family: 'philosopher-bold';
+    font-size: 31px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    color: var(--co-inactive-menu-item);
+}
+
+.take-away__desc{
+    font-family: 'roboto-regular';
+    line-height: 24px;
+    color: var(--co-inactive-menu-item);
+    margin-bottom: 40px;
+}
+
+.take-away-button-block{
+    display: flex;
+    
+}
+
+.take-away-btn{
+    text-decoration: none;
+    font-family: 'roboto-medium';
+    width: 163px;
+    height: 48px;
+    border-radius: 5px;
+}
+
+.take-away-btn:not(:last-child){
+    
+    margin-right: 30px;
+}
+
+.take-away-btn.apple{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, .1);
+    color: #fff;
+    background-color: var(--co-inactive-menu-item);
+}
+
+.take-away-btn.apple img{
+    margin-right: 10px;
+}
+
+.take-away-btn.apple>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.take-away-btn.google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, .1);
+    color: var(--co-inactive-menu-item);
+}
+
+.take-away-btn.google img{
+    margin-right: 10px;
+}
+
+.take-away-btn.google>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.take-away__mobile-pic{
+    width: 323px;
+    height: 651px;
+    background-image: url('../assets/mobile-w.webp');
+    position: absolute;
+    right: 94px;
+    top: -50%;
+    transform: translateY(32%);
+}

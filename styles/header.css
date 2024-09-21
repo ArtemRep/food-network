@@ -1,0 +1,129 @@
+
+.header{
+    max-width: 1140px;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 106px;
+}
+
+.header__nav, .header__nav-menu, .header__top{
+    display: flex;
+}
+
+.header__top{
+    justify-content: space-between;
+    margin-bottom: 160px;
+}
+
+.header__nav{
+    column-gap: 35px;
+    align-items: center;
+}
+
+.header__nav-menu{
+    column-gap: 40px;
+}
+
+
+.header__logo{
+    width: 44px;
+    height: 46px;
+    background-image: url('../assets/food-logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.header__nav-menu-item-list{
+color: var(--co-inactive-menu-item);
+   font-family: 'roboto-regular'; 
+   text-decoration: none;
+}
+
+
+.header__nav-menu .header__nav-menu-item:first-child a{
+    color: var(--co-active-menu);
+    font-family: 'roboto-medium';
+}
+
+.header-button{
+    font-family: 'roboto-regular'; 
+    padding: 13px 30px 14px 30px;
+    max-width: fit-content;
+    border-radius: 5px;
+   
+}
+
+/* !НИЖНИЙ ХЕДЕР */
+
+.header__bottom{
+  
+    width: auto;
+    position: relative;
+}
+
+
+.header__bottom-desc-header{
+    font-family: 'philosopher-bold';
+    color: var(--co-inactive-menu-item);
+    font-size: 48px;
+    line-height: 57px;
+    max-width: 555px;
+    margin-bottom: 42px;
+}
+
+.header__bottom-desc-paragraph{
+    font-family: 'roboto-medium';
+    color: var(--co-inactive-menu-item);
+    line-height: 24px;
+    max-width: 555px;
+    margin-bottom: 50px;
+}
+
+.header-bottom-button-1{
+    font-family: 'roboto-medium';
+    color: var(--co-white);
+    display: inline-block;
+    padding: 21px 40px 20px 40px;
+    border-radius: 5px;
+    margin-right: 28px;
+}
+
+.header-bottom-button-2{
+    font-family: 'roboto-medium';
+    color: var(--co-active-menu);
+    background-color: var(--co-white);
+    display: inline-block;
+    padding: 21px 40px 20px 40px;
+    border-radius: 5px;
+    border: 1px solid var(--co-active-menu);
+}
+
+.header__bottom-img{
+    position: absolute;
+    top: -175px;
+    right: -160px;
+    width: 800px;
+    height: 670px;
+    background-image: url('/assets/header-cutlets.png');
+    background-position: center -35px;
+    background-size: cover;
+    z-index: -1;
+}
+
+@media(max-width:985px){
+    .header__bottom-img{
+        /* display: none; */
+        position: static;
+        width: 482px;
+        height: 510px;
+        background-position: center 0px;
+    }
+}
+
+@media(max-width:700px){
+    .header__top{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
